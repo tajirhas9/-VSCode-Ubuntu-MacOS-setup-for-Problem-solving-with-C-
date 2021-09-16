@@ -27,7 +27,7 @@ int main() {
     while(T--) {
       int k;
       cin >> k;
-      cout << liked_sequence[k] << endl;
+      cout << liked_sequence[k-1] << endl;
     }
 
     return 0;
